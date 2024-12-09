@@ -27,7 +27,7 @@ sudo vi /etc/nginx/sites-available/default
         listen 7794 default_server;
         listen [::]:7794 default_server;
 
-        server_name 165.232.184.235:7794;
+        server_name <ip-address>:7794;
         root /root/EnvironmentFiles/WASEEL_AUTOMATION_LOGS;
         autoindex on;
         autoindex_format json;
