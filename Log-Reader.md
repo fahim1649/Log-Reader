@@ -1,9 +1,13 @@
 # Log-Reader
 
 This command installs the apache2-utils package, which includes the htpasswd tool used for creating and managing password files.
+
 ```javascript
 sudo apt-get install apache2-utils -y
 ```
+
+
+This command creates a new password file at /etc/nginx/.htpasswd with a user named logreader. You'll be prompted to enter and confirm a password for this user.
 
 ```javascript
 sudo htpasswd -c /etc/nginx/.htpasswd logreader
