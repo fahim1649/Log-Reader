@@ -1,5 +1,6 @@
 # Log-Reader
 
+This command installs the apache2-utils package, which includes the htpasswd tool used for creating and managing password files.
 ```javascript
 sudo apt-get install apache2-utils -y
 ```
